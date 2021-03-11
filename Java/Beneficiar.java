@@ -1,17 +1,15 @@
 import java.util.Vector;
 
-public class Beneficiar {
+public class Beneficiar extends Utilizator {
 
-  public bool Pending;
+  public Boolean Pending;
 
-    public Vector  myUtilizator;
-    public Binefacator myBinefacator;
-    public Vector  myCerere;
     /**
    * 
    * @element-type Cerere
    */
   public Vector  myCerere;
+    public Binefacator myBinefacator;
 
   public void adaugaCerere() {
   }

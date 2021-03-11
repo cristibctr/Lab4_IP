@@ -1,22 +1,20 @@
 import java.util.Vector;
+import java.util.ArrayList;
 
-public class Binefacator {
+public class Binefacator extends Utilizator {
 
-  public boolean Disponibilitate;
+  public Boolean Disponibilitate;
 
-  public ArrayList<Integer> IDcerere;
+  public ArrayList<Integer> IDCerere;
 
-    public Vector  myUtilizator;
-    /**
-   * 
-   * @element-type Produs
-   */
-    public Beneficiar myBeneficiar;
+  public Integer newAttr;
+
     /**
    * 
    * @element-type Produs
    */
   public Vector  myProdus;
+    public Beneficiar myBeneficiar;
 
   public void adaugaProdus() {
   }

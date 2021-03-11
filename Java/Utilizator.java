@@ -10,7 +10,6 @@ public class Utilizator {
 
   public String Parola;
 
-    
   public void reseteazaParola() {
   }
 

@@ -1,8 +1,8 @@
 import java.util.Vector;
+import java.util.ArrayList;
+
 
 public class Cerere {
-
-  public Binefacator ID;
 
   public Integer IDCerere;
 
@@ -12,20 +12,21 @@ public class Cerere {
 
   public ArrayList<Integer> IDprodus;
 
-    public Conditii myConditii;
-    public Vector  myBeneficiar;
-    public Beneficiar myBeneficiar;
+  public Binefacator ID;
+
     /**
    * 
    * @element-type Produs
    */
   public Vector  myProdus;
+    public Beneficiar myBeneficiar;
+    public Conditii myConditii;
 
   public void adaugaProdus() {
   }
 
   public float analizeazaConditii() {
-  return 0.0;
+  return 0;
   }
 
 }
