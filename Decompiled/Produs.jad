@@ -1,0 +1,26 @@
+// Decompiled by Jad v1.5.8g. Copyright 2001 Pavel Kouznetsov.
+// Jad home page: http://www.kpdus.com/jad.html
+// Decompiler options: packimports(3) 
+// Source File Name:   Produs.java
+
+import java.util.ArrayList;
+import java.util.Vector;
+
+public class Produs
+{
+
+    public Produs()
+    {
+    }
+
+    public void actualizeazaCantitate()
+    {
+    }
+
+    public Integer IDProdus;
+    public String Nume;
+    public Integer IDCantitate;
+    public ArrayList IDCerere;
+    public Vector myCerere;
+    public Binefacator myBinefacator;
+}
